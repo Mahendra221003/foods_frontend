@@ -4,12 +4,3 @@
     width: 100%;
 }
 
-.white-box {
-    background: white;
-    padding: 50px 70px;
-    border: 4px solid #ff6b35;
-    border-radius: 20px;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
-    text-align: center;
-    max-width: 400px;
-}

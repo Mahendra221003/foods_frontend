@@ -7,7 +7,7 @@ const routes: Routes = [
   path:'registration',
   loadChildren:()=>import('./modules/registration/registration-routing.module').then((m)=>m.RegistrationRoutingModule)
 },
-{ path: '', redirectTo: '/registration', pathMatch: 'full' },
+{ path: '', redirectTo: '/registration/signup', pathMatch: 'full' },
 {
   path:'dashboard',
   loadChildren:()=>import('./modules/dashboard/dashboard-routing.module').then(m=>m.DashboardRoutingModule)
